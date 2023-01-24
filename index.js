@@ -1,8 +1,9 @@
+// installing the required packages
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-
+//list of questions to generate the readme file
 const questions = [
     {
         type: 'input',
@@ -66,7 +67,7 @@ const questions = [
     }
 ];
 
-
+// this function writes the data to the file specified
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
@@ -75,20 +76,20 @@ function writeToFile(fileName, data) {
     console.log("Your README file has successfully created!");
     });
 };
-
+//this function reads all the inputs, and used them to create the readme file.
 async function init() {
     console.log("Starting app...");
 
     try {
-        const responses = await inquirer.prompt(questions);
-        const generateContent = generateMarkdown(responses);
+        const responses = await inquirer.prompt(questions); //waits for all the questions to be answered
+        const generateContent = generateMarkdown(responses);//turns the responses into the markdown format specified in the generateMarkdown file
 
         console.log("Responses Accepted \n\nGenerating content...\n");
 
-        await writeToFile('README.md', generateContent);
+        await writeToFile('README.md', generateContent); // waits for the writetofile function to complete before saying everything is complete
         console.log("Successfully generated README\n");
 
-    } catch (err) {
+    } catch (err) {//catching if there is any errors and printing them if so
         console.error(err);
     }
 
