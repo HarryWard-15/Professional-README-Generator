@@ -73,7 +73,7 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.error(err);
     }
-    console.log("Your README file has successfully created!");
+    console.log("Your new README file can be found in the tests directory");
     });
 };
 //this function reads all the inputs, and used them to create the readme file.
@@ -86,7 +86,7 @@ async function init() {
 
         console.log("Responses Accepted \n\nGenerating content...\n");
 
-        await writeToFile('README.md', generateContent); // waits for the writetofile function to complete before saying everything is complete
+        await writeToFile(`${responses.title}-README.md`, generateContent); // waits for the writetofile function to complete before saying everything is complete
         console.log("Successfully generated README\n");
 
     } catch (err) {//catching if there is any errors and printing them if so
