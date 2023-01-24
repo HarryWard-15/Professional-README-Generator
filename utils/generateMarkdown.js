@@ -112,7 +112,7 @@ function generateMarkdown(data) {
   GitHub: https://github.com/${data.username}  
   Email: ${data.email}
   ## Credits
-  ${data.name}
+  ${data.credits}
 `;
 }
 

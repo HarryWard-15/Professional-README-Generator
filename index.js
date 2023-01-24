@@ -64,6 +64,11 @@ const questions = [
         message: "Choose a license for your project.",
         choices: ['Apache license 2.0','BSD 2-clause "Simplified" license','BSD 3-clause "New" or "Revised: license','Common Development and Distribution License 1.0','Eclipse Public License 2.0','GNU General Public License v2.0','GNU GPLv3','MIT License','Mozilla Public License 2.0','No License'],
         name: 'license'
+    },
+    {
+        type: 'input',
+        message: "If applicable, provide any credits to the project.",
+        name: 'credits'
     }
 ];
 
