@@ -1,29 +1,41 @@
-# Random title
-  [![BSD 2-clause Simplified](https://img.shields.io/badge/License-BSD_2--clause_Simplified-orange?style=for-the-badge)](https://opensource.org/licenses/BSD-2-Clause)
+# Professional README Generator
+  [![MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Licenses](#licenses)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
   * [Questions](#questions)
   * [Credits](#credits)
+
   ## Description
-  This is my random project description 
+  This is my professional README generator, which simply asks you prompts and then generates a README file for you, just like this one! Using node.js
+
   ## Installation
-  these are my random installation instruactions
+  In order to use this generator, you will need to have node.js installed, other than than all you need is to download the source code from this repository!
+
   ## Usage
-  more instructions
+  To run this generator, you will need to navigate to the path where you have downloaded the source code and run 
+  ```
+  npm install
+  ```
+  This will generate a node_modules directory for you installing all the dependencies needed for the application. Following this you will need to run 
+  ```
+  node index.js
+  ```
+  follow the prompts you are provided with, and then you README fill will be places into the 'tests' directory, with the filename at the title you enterer-README.md
+
   ## Licenses
-    This project is covered under the BSD 2-clause "Simplified" license license. To learn more about what this means, click the license button at the top.
-  ## Contributing
-  more guidelines
-  ## Tests
-  more tests
+    This project is covered under the MIT License license. To learn more about what this means, click the license button at the top.
+
   ## Questions
   Have questions about this project?  
-  GitHub: https://github.com/harryward-15  
+  GitHub: https://github.com/Harry-Ward15  
   Email: hward.1508@gmail.com
+
   ## Credits
-  undefined
+  Starter code from UWA bootcamp 2022-2023
+
+  ## Live Demo
+  https://youtu.be/YwJ-DHNrIxE
