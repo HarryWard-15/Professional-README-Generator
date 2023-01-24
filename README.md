@@ -1,5 +1,5 @@
-# Titlw
-  [![MIT License license](https://img.shields.io/badge/License-MIT License-blue.svg)](undefined)
+# Random title
+  [![BSD 2-clause Simplified](https://img.shields.io/badge/License-BSD_2--clause_Simplified-orange?style=for-the-badge)](https://opensource.org/licenses/BSD-2-Clause)
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -10,20 +10,20 @@
   * [Questions](#questions)
   * [Credits](#credits)
   ## Description
-  fd
+  This is my random project description 
   ## Installation
-  f
+  these are my random installation instruactions
   ## Usage
-  fg
+  more instructions
   ## Licenses
-    This project is covered under the MIT License license. To learn more about what this means, click the license button at the top.
+    This project is covered under the BSD 2-clause "Simplified" license license. To learn more about what this means, click the license button at the top.
   ## Contributing
-  gfd
+  more guidelines
   ## Tests
-  
+  more tests
   ## Questions
   Have questions about this project?  
-  GitHub: https://github.com/undefined  
-  Email: undefined
+  GitHub: https://github.com/harryward-15  
+  Email: hward.1508@gmail.com
   ## Credits
   undefined
