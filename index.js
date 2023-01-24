@@ -86,7 +86,7 @@ async function init() {
 
         console.log("Responses Accepted \n\nGenerating content...\n");
 
-        await writeToFile(`${responses.title}-README.md`, generateContent); // waits for the writetofile function to complete before saying everything is complete
+        await writeToFile(`./tests/${responses.title}-README.md`, generateContent); // waits for the writetofile function to complete before saying everything is complete
         console.log("Successfully generated README\n");
 
     } catch (err) {//catching if there is any errors and printing them if so
